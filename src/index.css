@@ -1,27 +1,98 @@
-body {
-  margin: 0;
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    'Segoe UI',
-    'Roboto',
-    'Oxygen',
-    'Ubuntu',
-    'Cantarell',
-    'Fira Sans',
-    'Droid Sans',
-    'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+* {
+  box-sizing: border-box;
 }
 
-code {
-  font-family:
-    source-code-pro,
-    Menlo,
-    Monaco,
-    Consolas,
-    'Courier New',
-    monospace;
+body {
+  margin: 0;
+  font-family: 'Segoe UI', 'Roboto', sans-serif;
+
+  --navbar: #2d3d8e;
+  --headline: #fff;
+  --headlinebg: #008bc7;
+  --navbar-placeholder: #6d7391;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: var(--navbar);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+header .brand {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+}
+
+header .search {
+  width: 50%;
+  height: 40px;
+  border-radius: 20px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  padding-right: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+header .search button {
+  border: none;
+  color: var(--navbar);
+  background-color: transparent;
+}
+
+header .search input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-right: 1px solid var(--navbar);
+  padding: 0;
+  font-size: 16px;
+  outline: none;
+}
+
+header .search input::placeholder {
+  color: var(--navbar-placeholder);
+}
+
+.headline {
+  height: 148px;
+  position: relative;
+  padding: 10px 20px;
+  text-shadow: #000 0 5px 10px;
+  color: var(--headline);
+  background-image: url('/public/img/globals.png');
+  background-position: right top;
+  background-repeat: no-repeat;
+  background-color: var(--headlinebg);
+}
+
+.headline .overlay {
+  opacity: 0.5;
+  background-color: var(--navbar);
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.headline .info {
+  position: relative;
+
+  /* background-color: var(--navbar); */
 }
