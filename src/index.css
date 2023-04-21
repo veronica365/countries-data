@@ -115,6 +115,17 @@ article {
   background-color: var(--article);
 }
 
+article  a {
+  display: flex;
+  min-width: 300px;
+  min-height: 150px;
+  padding: 24px 12px;
+  align-items: center;
+  text-decoration: none;
+  color: var(--headline);
+  background-color: var(--article);
+}
+
 article span i {
   margin-right: 10px;
 }
