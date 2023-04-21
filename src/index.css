@@ -62,6 +62,7 @@ header .search {
   width: 40px;
   height: 40px;
   display: flex;
+  cursor: pointer;
   border-radius: 20px;
   align-items: center;
   background-color: #fff;
@@ -101,6 +102,7 @@ header .search input:not(:placeholder-shown) {
 
 header .search button {
   border: none;
+  cursor: pointer;
   color: var(--navbar);
   background-color: transparent;
 }
