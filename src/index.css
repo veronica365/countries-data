@@ -9,6 +9,7 @@ body {
   --navbar: #2d3d8e;
   --headline: #fff;
   --headlinebg: #008bc7;
+  --article: #4789d4;
   --navbar-placeholder: #6d7391;
 }
 
@@ -93,6 +94,37 @@ header .search input::placeholder {
 
 .headline .info {
   position: relative;
+}
 
-  /* background-color: var(--navbar); */
+.countries {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch;
+}
+
+article {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  min-width: 300px;
+  min-height: 150px;
+  padding: 24px 12px;
+  color: var(--headline);
+  background-color: var(--article);
+}
+
+article span i {
+  margin-right: 10px;
+}
+
+article .country-data {
+  display: flex;
+  row-gap: 5px;
+  flex-direction: column;
+}
+
+article .country-name {
+  margin-top: 0;
 }

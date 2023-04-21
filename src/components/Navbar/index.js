@@ -1,4 +1,13 @@
+import { useEffect } from 'react';
+import { useDispatch } from 'react-redux';
+import { getData } from '../../redux/countries';
+
 export default function Navbar() {
+  const dispatch = useDispatch();
+  useEffect(() => {
+    dispatch(getData());
+  }, [dispatch]);
+
   return (
     <header className="App-header">
       <div className="brand">
