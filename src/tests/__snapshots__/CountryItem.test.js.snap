@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryItem should render with fewer country details as props 1`] = `
+<div>
+  <article
+    class="country"
+  >
+    <a
+      href="/country/1"
+    >
+      <div
+        class="country-info"
+      >
+        <h2
+          class="country-name"
+        >
+          Afghanistan
+        </h2>
+        <span
+          class="country-flag"
+        >
+          🇦🇫
+        </span>
+        <div
+          class="country-data"
+        >
+          <span
+            class="country-data-value"
+          >
+            <i
+              class="fa fa-mobile"
+            />
+            93
+          </span>
+          <span
+            class="country-data-value"
+          >
+            <i
+              class="fa fa-money"
+            />
+            AFN
+          </span>
+          <span
+            class="country-data-value"
+          >
+            <i
+              class="fa fa-map-marker"
+            />
+            33.00
+             
+              
+            65.00
+          </span>
+        </div>
+      </div>
+    </a>
+  </article>
+</div>
+`;

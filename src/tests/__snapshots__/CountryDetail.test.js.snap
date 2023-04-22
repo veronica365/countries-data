@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CountryDetail should display all the country details 1`] = `
+<div>
+  <article
+    class="country detail"
+  >
+    <div
+      class="country-info"
+    >
+      <h2
+        class="country-name"
+      >
+        Afghanistan
+      </h2>
+      <span
+        class="country-flag"
+      >
+        🇦🇫
+      </span>
+      <h3
+        class="country-name"
+      >
+        <i
+          class="fa fa-building"
+        />
+         
+          
+        Kabul
+      </h3>
+      <div
+        class="country-data"
+      >
+        <span
+          class="country-data-value"
+        >
+          <i
+            class="fa fa-mobile"
+          />
+          93
+        </span>
+        <span
+          class="country-data-value"
+        >
+          <i
+            class="fa fa-money"
+          />
+          AFN
+           
+          (
+          ؋
+           
+          )
+        </span>
+        <span
+          class="country-data-value"
+        >
+          <i
+            class="fa fa-globe"
+          />
+          Asia
+          ,
+          Southern Asia
+        </span>
+        <span
+          class="country-data-value"
+        >
+          <i
+            class="fa fa-map-marker"
+          />
+          33.00
+            
+            
+          65.00
+        </span>
+        <span
+          class="country-data-value"
+        >
+          <i
+            class="fa fa-clock-o"
+          />
+          Timezones:
+           
+          <b>
+            1
+          </b>
+        </span>
+      </div>
+      <div
+        class="country-data"
+      >
+        <h4>
+          All time zones in
+          Afghanistan
+          :
+        </h4>
+      </div>
+      <div
+        class="country-data"
+      >
+        <div
+          class="country-data-value"
+        >
+          <p
+            class="timezone"
+          >
+            1
+            .
+            Asia/Kabul
+             
+            UTC+04:30
+            ,
+             
+            AFT
+             
+            (
+            Afghanistan Time
+            ),
+          </p>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;

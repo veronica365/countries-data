@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Headline should render without issues 1`] = `
+<div>
+  <div
+    class="headline"
+  >
+    <div
+      class="overlay"
+    />
+    <div
+      class="info"
+    >
+      <h1>
+        Country Data
+      </h1>
+      <p>
+        Find out more about the countries of the world
+      </p>
+    </div>
+  </div>
+</div>
+`;

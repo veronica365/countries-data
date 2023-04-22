@@ -1,0 +1,8 @@
+{
+  "short_name": "Countries Data",
+  "name": "Data about the countries globally",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#0447a1",
+  "background_color": "#73abf7"
+}
