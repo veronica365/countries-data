@@ -11,6 +11,7 @@ body {
   --headlinebg: #008bc7;
   --article: #4789d4;
   --navbar-placeholder: #6d7391;
+  --article-detail: #718ba9;
 }
 
 img {
@@ -151,20 +152,17 @@ article {
   align-items: center;
   min-width: 300px;
   min-height: 150px;
-  padding: 24px 12px;
   color: var(--headline);
   background-color: var(--article);
+  cursor: pointer;
 }
 
+article.detail,
 article a {
-  display: flex;
-  min-width: 300px;
-  min-height: 150px;
-  padding: 24px 12px;
-  align-items: center;
+  width: 100%;
+  padding: 24px;
   text-decoration: none;
   color: var(--headline);
-  background-color: var(--article);
 }
 
 article span i {
@@ -177,6 +175,33 @@ article .country-data {
   flex-direction: column;
 }
 
+article .country-flag {
+  font-size: 30px;
+}
+
+
 article .country-name {
   margin-top: 0;
+}
+
+article.detail {
+  background-color: var(--article-detail);
+}
+
+article.detail .country-info .country-flag {
+  font-size: 150px;
+}
+
+article.detail .country-data {
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 30px;
+}
+
+article.detail .country-data h4 {
+  margin-bottom: 0;
+}
+
+article.detail .country-data .timezone {
+  line-height: 20px;
 }

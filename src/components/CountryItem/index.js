@@ -16,6 +16,7 @@ export default function CountryItem({ country }) {
       <Link to={`/country/${country.id}`} onClick={clickHandler}>
         <div className="country-info">
           <h2 className="country-name">{country.name}</h2>
+          <span className="country-flag">{country.emoji}</span>
           <div className="country-data">
             <span className="country-data-value">
               <i className="fa fa-mobile" />
@@ -45,6 +46,7 @@ CountryItem.propTypes = {
     name: PropTypes.string.isRequired,
     phone_code: PropTypes.string.isRequired,
     currency: PropTypes.string.isRequired,
+    emoji: PropTypes.string.isRequired,
     latitude: PropTypes.string.isRequired,
     longitude: PropTypes.string.isRequired,
   }).isRequired,

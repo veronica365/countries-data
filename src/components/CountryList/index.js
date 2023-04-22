@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useSelector } from 'react-redux';
 import CountryItem from '../CountryItem';
+import CountryDetail from '../CountryDetail';
 
 export default function CountryList({ id }) {
   const { countries, countryById, countriesBySearch } = useSelector(
@@ -21,7 +22,7 @@ export default function CountryList({ id }) {
   }
   return (
     <section className="countries">
-      {countryById.id && <CountryItem country={countryById} />}
+      {countryById.id && <CountryDetail country={countryById} />}
     </section>
   );
 }
