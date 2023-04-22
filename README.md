@@ -57,7 +57,7 @@
 
 ## 🚀 Project Walkthrough <a name="walk-through"></a>
 
--[Walk through](https://www.loom.com/share/9ad69e78c3444b1d9ebfc45ddfdb33ed)
+-[Walk through](https://loom.com/share/3ba53f588ade48c8a6bf3ccd94c75683)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

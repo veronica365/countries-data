@@ -21,7 +21,7 @@ export default function CountryList({ id }) {
     );
   }
   return (
-    <section className="countries">
+    <section className="countries detail">
       {countryById.id && <CountryDetail country={countryById} />}
     </section>
   );
