@@ -9,6 +9,7 @@
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
     - [🚀 Live Demo](#live-demo)
+    - [📖 Walk Through](#walk-through)
   - [💻 Getting Started ](#-getting-started-)
     - [Prerequisites](#prerequisites)
     - [Setup](#setup)
@@ -51,6 +52,12 @@
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 -[Live Demo Link](https://countries-data-4ptm.onrender.com)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 🚀 Project Walkthrough <a name="walk-through"></a>
+
+-[Walk through](https://www.loom.com/share/9ad69e78c3444b1d9ebfc45ddfdb33ed)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -144,6 +151,7 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 ## 🔭 Future Features <a name="future-features"></a>
 
 - [ ] Improve the application CSS styles
+- [ ] Improve the application Search functionality and how it displays the results
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

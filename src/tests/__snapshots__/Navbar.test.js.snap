@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Navbar Component Should be able to fetch data for all countries 1`] = `
+<div>
+  <header
+    class="App-header"
+  >
+    <div
+      class="brand"
+    >
+      <img
+        alt="logo"
+        src="/img/countries.png"
+      />
+      Country Data
+    </div>
+    <div
+      class="search"
+    >
+      <input
+        placeholder="Search by country, currency, city, region, etc"
+        type="text"
+      />
+      <button
+        type="button"
+      >
+        <i
+          class="fa fa-search"
+        />
+      </button>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Navbar Component Should be able to search for a country from the data 1`] = `
+<div>
+  <header
+    class="App-header"
+  >
+    <div
+      class="brand"
+    >
+      <img
+        alt="logo"
+        src="/img/countries.png"
+      />
+      Country Data
+    </div>
+    <div
+      class="search"
+    >
+      <input
+        placeholder="Search by country, currency, city, region, etc"
+        type="text"
+      />
+      <button
+        type="button"
+      >
+        <i
+          class="fa fa-search"
+        />
+      </button>
+    </div>
+  </header>
+</div>
+`;
+
+exports[`Navbar Component should render and navbar and fetch countries 1`] = `
+<div>
+  <header
+    class="App-header"
+  >
+    <div
+      class="brand"
+    >
+      <img
+        alt="logo"
+        src="/img/countries.png"
+      />
+      Country Data
+    </div>
+    <div
+      class="search"
+    >
+      <input
+        placeholder="Search by country, currency, city, region, etc"
+        type="text"
+      />
+      <button
+        type="button"
+      >
+        <i
+          class="fa fa-search"
+        />
+      </button>
+    </div>
+  </header>
+</div>
+`;

@@ -7,6 +7,7 @@ const searchItem = (param, countries) => countries.filter(
   (country) => String(country.id) === param
       || String(country.name).toLowerCase().includes(String(param).toLowerCase())
       || String(country.currency).toLowerCase().includes(String(param).toLowerCase())
+      || String(country.capital).toLowerCase().includes(String(param).toLowerCase())
       || String(country.region).toLowerCase().includes(String(param).toLowerCase())
       || String(country.currency_name).toLowerCase().includes(String(param).toLowerCase())
       || String(country.subregion).toLowerCase().includes(String(param).toLowerCase()),

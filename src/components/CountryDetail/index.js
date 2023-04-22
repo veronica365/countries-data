@@ -41,7 +41,9 @@ export default function CountryDetail({ country }) {
           </span>
           <span className="country-data-value">
             <i className="fa fa-clock-o" />
-            Timezones
+            Timezones:
+            {' '}
+            <b>{country.timezones.length}</b>
           </span>
         </div>
         <div className="country-data">
